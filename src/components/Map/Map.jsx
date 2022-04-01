@@ -14,7 +14,7 @@ export default function Map({setCoordinates,setBounds, coordinates, places, setC
 
 console.log(isDesktop);
   return (
-    <div className={classes.mapContainer}>
+    <div className={classes.mapContainer} >
       <GoogleMapReact  
           bootstrapURLKeys={{key:'AIzaSyAqdnRaWbu8lF1Oo51r4OtR2wH47grm5h0'}}
           defaultCenter={coordinates}
